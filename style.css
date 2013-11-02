@@ -1,0 +1,44 @@
+/*
+ Theme Name:     Unsigned Child
+ Description:    Unsigned Child Theme
+ Author:         Manish Suwal 'Enwil'
+ Author URI:     http://enwil.com
+ Template:       unsigned
+*/
+
+@import url("../unsigned/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Don't Display Credit in Footer */
+#credit {
+display: none;
+}
+
+/* Make Site Title Black */
+#wrapper #header .site-title a {
+color: #111;
+}
+
+/* Make 'Recent News' Full Width */
+#main .widget.widget_recent_news li, #main .widget.widget_press_clippings li {
+margin: 0 0 20px;
+width: 95%;
+}
+
+/* For creating a full width image from the Thumb */
+.woo-image {
+	width: 100%;
+	height: auto;
+}
+
+.woo-recentnews-thumb {
+	width: 100%;
+	height: auto;
+}
+
+.rounded {
+	width: 100%;
+	height: auto;
+}
